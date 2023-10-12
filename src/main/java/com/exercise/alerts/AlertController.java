@@ -23,7 +23,7 @@ public class AlertController {
         }
         // write alert to data.txt
         try (FileWriter writer = new FileWriter("data.txt", true)) {
-            writer.write(objectMapper.writeValueAsString(alert) + System.lineSeparator()); // 写入一行并换行
+            writer.write(objectMapper.writeValueAsString(alert) + System.lineSeparator()); //Write one line followed by the next line
         } catch (IOException e) {
             return new ResponseEntity<>(objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(new AddAlertResult("",e.toString())),HttpStatus.INTERNAL_SERVER_ERROR);
         }
