@@ -1,4 +1,4 @@
-I used to data.txt file as the data storage system to read and wirte alert data, the file is empty initially, and below are the results of the API I tested.
+I used data.txt file as the data storage system to read and wirte alert data, the file is empty initially, and below are the results of the API I tested.
 
 Write alerts
 
