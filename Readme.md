@@ -23,8 +23,7 @@ Read Alerts
 ![img_7.png](img_7.png)
 
 2. Error
-
-3. if I read the data without a service_id, error will happen
+ if I read the data without a service_id, error will happen
 ![img_8.png](img_8.png)
 
 
