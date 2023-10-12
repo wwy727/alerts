@@ -12,6 +12,7 @@ data been added to the data.txt
 
 2. Error
 
+
 if I write the data with same alert_id, error will happen
 ![img_5.png](img_5.png)
 
